@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  overflow-x: hidden;
+}
+body {
+  background-color: #252323;
+  font-family: "IBM Plex Mono", monospace;
+  overflow:hidden
+}
+.clock {
+  font-size: 60px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  text-shadow: 0 0 15px #219898;
+}
+h1 {
+  margin-top: 30px;
+  text-align: center;
+  color: cyan;
+}
+.dc {
+  margin: -16px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  gap: 55px;
+  text-align: center;
+  justify-content: center;
+  padding-top: 45px;
+  text-shadow: 0 0 25px #07c3c3;
+}
+.line {
+  width: 3px;
+  background-color: cyan;
+}
+.clock-img {
+  height: 230px;
+  position: absolute;
+  top: -33px;
+}
+.clock-img-1 {
+  right: -40px;
+}
+.clock-img-2 {
+  left: -40px;
+}
+.digital-clock {
+  width: 800px;
+  height: 400px;
+  background-color: #1e1d1d;
+  margin: 100px auto;
+  border-radius: 50px;
+  color: cyan;
+  position: relative;
+  
+}
+.dc-2 {
+  margin-top: 10px;
+  margin-left: 71px;
+}
+
+.digital-border{
+      position:absolute;
+      width: 810px;
+      height: 410px;
+    top: -5px;
+    right: -5px;    
+    border-radius: 50px;
+    background:conic-gradient(cyan 0deg , #252323  0deg);
+    z-index: -1;
+
+}
+
